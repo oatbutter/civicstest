@@ -26,6 +26,7 @@ h1 {
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    cursor: pointer; /* Make the card indicate it's clickable */
 }
 
 /* Ensures only one side is visible at a time */
