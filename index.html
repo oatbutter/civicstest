@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USCIS Civics Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>USCIS Civics Quiz</h1>
+
+    <div class="card">
+        <div class="card-front" id="front">
+            <h2 id="question"></h2>
+            <ul class="choices" id="choices"></ul>
+        </div>
+        <div class="card-back" id="back">
+            <h3>Correct Answer:</h3>
+            <ul id="answers"></ul>
+        </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progressBar"></div>
+  </div>
+  
+
+    <div class="controls">
+        <button id="prevBtn">Previous</button>
+        <button id="flipBtn">Flip</button>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <div class="progress">
+        Question <span id="current">1</span> of <span id="total">3</span>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
